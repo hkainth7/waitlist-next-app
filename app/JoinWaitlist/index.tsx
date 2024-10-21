@@ -17,8 +17,6 @@ import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { useState } from "react";
 
-interface JoinWaitlistProps {}
-
 const StyledTextField = styled(TextField)({
 	width: "31%",
 });
@@ -34,7 +32,7 @@ const steps = [
 	"Additional Detials",
 ];
 
-export const JoinWaitlist = (props: JoinWaitlistProps) => {
+export const JoinWaitlist = () => {
 	const [activeStep, setActiveStep] = useState(0);
 
 	const initialValues: WaitlistFormValues = {
@@ -239,7 +237,7 @@ export const JoinWaitlist = (props: JoinWaitlistProps) => {
 										} = {};
 
 										return (
-											<Step key={label} {...stepProps}>
+											<Step key={index} {...stepProps}>
 												<StepLabel {...labelProps}>{label}</StepLabel>
 											</Step>
 										);
