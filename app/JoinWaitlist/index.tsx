@@ -29,8 +29,8 @@ const StyledBox = styled(Box)({
 
 const steps = [
 	"Child Details",
-	"Mother's Details",
-	"Father's Details",
+	"Mother Details",
+	"Father Details",
 	"Additional Detials",
 ];
 
