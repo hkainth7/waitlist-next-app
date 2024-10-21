@@ -132,7 +132,7 @@ export const JoinWaitlist = () => {
 			case 1:
 				return (
 					<StyledBox>
-						<FormLabel sx={{ fontSize: "1.3em" }}>Mother's Details: </FormLabel>
+						<FormLabel sx={{ fontSize: "1.3em" }}>Mother Details: </FormLabel>
 						<Stack
 							gap={2}
 							direction="row"
@@ -164,7 +164,7 @@ export const JoinWaitlist = () => {
 			case 2:
 				return (
 					<StyledBox>
-						<FormLabel sx={{ fontSize: "1.3em" }}>Father's Details:</FormLabel>
+						<FormLabel sx={{ fontSize: "1.3em" }}>Fathers Details:</FormLabel>
 						<Stack
 							gap={2}
 							direction="row"
