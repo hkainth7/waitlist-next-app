@@ -11,7 +11,6 @@ import {
 	StepLabel,
 	Stepper,
 	styled,
-	Typography,
 } from "@mui/material";
 import "date-fns";
 import { LocalizationProvider } from "@mui/x-date-pickers";
