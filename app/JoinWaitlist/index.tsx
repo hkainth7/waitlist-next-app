@@ -17,9 +17,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { useState } from "react";
 
-const StyledTextField = styled(TextField)({
-	width: "31%",
-});
+const StyledTextField = styled(TextField)({});
 
 const StyledBox = styled(Box)({
 	padding: 4,
@@ -104,11 +102,7 @@ export const JoinWaitlist = () => {
 						>
 							<StyledTextField name="childFirstName" label="First Name" />
 							<StyledTextField name="childLastName" label="Last Name" />
-							<DatePicker
-								name="dateOfBirth"
-								label="DOB"
-								sx={{ width: "31%" }}
-							/>
+							<DatePicker name="dateOfBirth" label="DOB" />
 							<StyledTextField name="age" label="Age" />
 							<StyledTextField name="address" label="Address" />
 							<StyledTextField name="city" label="City" />
@@ -142,11 +136,7 @@ export const JoinWaitlist = () => {
 						>
 							<StyledTextField name="mFirstName" label="First Name" />
 							<StyledTextField name="mLastName" label="Last Name" />
-							<DatePicker
-								name="mDateOfBirth"
-								label="Date Of Birth"
-								sx={{ width: "31%" }}
-							/>
+							<DatePicker name="mDateOfBirth" label="Date Of Birth" />
 							<StyledTextField name="mAddress" label="Address" />
 							<StyledTextField name="mCity" label="City" />
 							<StyledTextField name="mProvince" label="Province" />
@@ -174,11 +164,7 @@ export const JoinWaitlist = () => {
 						>
 							<StyledTextField name="fFirstName" label="First Name" />
 							<StyledTextField name="fLastName" label="Last Name" />
-							<DatePicker
-								name="fDateOfBirth"
-								label="Date Of Birth"
-								sx={{ width: "31%" }}
-							/>
+							<DatePicker name="fDateOfBirth" label="Date Of Birth" />
 							<StyledTextField name="fAddress" label="Address" />
 							<StyledTextField name="fCity" label="City" />
 							<StyledTextField name="fProvince" label="Province" />
