@@ -4,7 +4,6 @@ import { WaitlistFormValues } from "../types";
 import {
 	Box,
 	Button,
-	FormLabel,
 	Stack,
 	Step,
 	StepLabel,
